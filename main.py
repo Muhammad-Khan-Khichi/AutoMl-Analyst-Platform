@@ -11,7 +11,7 @@ from explain import ( # pyright: ignore[reportMissingImports]
     missing_values_chart, target_distribution_chart,
 )
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://automl-analyst-backend.onrender.com/"
 
 st.set_page_config(
     page_title="AutoML Platform",
